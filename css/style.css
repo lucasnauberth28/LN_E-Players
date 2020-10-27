@@ -23,30 +23,82 @@ body{
     font-family: var(--font);
 }
 
-div{
-    font-size: 40px;
-    color: white;
+.menu{
+    height:5em;
+    width: 100%;
+  
 }
-h1{
-    font-size: 1.5em;
+
+.content{
+    width:100%;
+    max-width: 75em;
+    height: 100%;
+    margin:auto;
+    /* border:solid 2px yellow; */
 }
+
+.rodape-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 100%;
+    max-width:21.18em;
+}
+.menu ul{
+    list-style-type:none ;}
+
+.options{
+    width: 100%;
+    max-width: 50em;
+}
+
+.menu a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.0em;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 0.3em;
+    padding: 0.3em;
+     
+}
+
+.logo:hover{
+    background-color:#1E1C21;
+    padding: 0.7em;
+    border-radius: 0.3em;
+    
+}
+
+
 
 @media screen and (max-width : 1199px){
     body{
-        background-color: var(--blue);
+        background-color: var(--background);
     }
 }
 
 @media screen and (max-width : 991px){
     body{
-        background-color: var(--red);
+        background-color: var(--background);
     }
 }
 
 @media screen and (max-width : 767px){
-    
+    body{
+        background-color: var(--background);
+    }
 }
 
 @media screen and (max-width : 576px){
-    
+    body{
+        background-color: var(--background);
+    }
 }
