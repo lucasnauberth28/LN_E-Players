@@ -39,7 +39,7 @@ body{
 
 .rodape-cont{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .logo{
@@ -63,22 +63,110 @@ body{
 }
 
 .menu a:hover{
-    color: black;
-    background-color: white;
+    color:#ffffff;
+    background-color: #C31616;
     border-radius: 0.3em;
-    padding: 0.3em;
-     
+    padding: 0.5em;
+    transform: scale(1.1);    
 }
 
 .logo:hover{
-    background-color:#1E1C21;
+    background-color:#C31616;
     padding: 0.7em;
     border-radius: 0.3em;
     
 }
+.banner{
+    position: relative;
+
+}
+.banner-container{
+    width: 100%;
+    height: 37.5em;
+    /* background-color: rgba(255, 0, 0, 0.137); */
+    position: absolute;
+    top:0;
+}
+
+.banner-content{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    /* background-color: rgba(0, 255, 98, 0.514);  */
+    margin: auto;
+    justify-content: flex-end;
+}
+
+.banner-text{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text h1{
+    font-size: 4.62em;
+    font-family:'Titillium Web', sans-serif;
+    color: white;
+}
+
+.banner-text p{
+    font-size: 1.5em;
+    font-family:'Titillium Web', sans-serif;
+    color: white;
+}
+
+.banner-text a{
+    margin-top: 1.3em;
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration:none;
+    outline: none;
+    color: #fff;
+    background-color: #C31616;
+    border: none;
+    border-radius: 13px;
+    box-shadow: 0 7px rgb(51, 49, 49);
+    transition: 0.3s;
+
+}
 
 
+.banner-text a:hover{
+    background-color: #7c1717;
+}
 
+.games{
+    width: 100%;
+    height: 121px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.content-game{
+    width: 90%;
+    opacity: 1;
+    transition: 0.3s;
+    min-width: 120px;
+}
+
+.content-game img{
+    width: 90%;
+    opacity: 0.6;
+    transition: 0.3s;
+    min-width: 120px;
+}
+
+.content-game img:hover{
+    opacity: 1;
+}
 @media screen and (max-width : 1199px){
     body{
         background-color: var(--background);
