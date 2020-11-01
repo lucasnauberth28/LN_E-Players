@@ -247,7 +247,6 @@ body{
     height: 7.5em;
     display: flex;
     align-items: center;
-    border: solid 2px red;
 }
 
 .content-partidas{
