@@ -329,7 +329,7 @@ body{
     border:none;
     color: white;
     text-align:center;
-    font-size:28px;
+    font-size:1.5em;
     margin: auto;
     width: 9.375em;
     height:2.5em;
@@ -362,53 +362,10 @@ body{
   .more-plays:hover span:after {
     opacity: 1;
     right: 0;
-    border: solid 2px blue;
     margin: auto;
 }
 
-.ao-p{
-    display: flex;
-    color: white;
-    align-items: center;
-    font-size: 2em;
-    text-transform: uppercase;
-}
 
-.time1{
-    display: flex;
-    color: white;
-    align-items: center;
-    margin-left: 2em;
-    font-size:1.5em;
-
-}
-
-.time1 img{
-    width:6em;
-    height:4em;
-    /* border: solid 2px  #C31616; */
-    
-}
-
-.versus{
-    display: flex;
-    align-items: center;
-    color: white;
-    font-family:'Titillium Web', sans-serif;
-    padding-left: 2em;
-}
-
-.time2{
-    display: flex;
-    color: white;
-    align-items:center;
-    margin-left:2em;
-    font-size:1.5em;
-}
-.time2 img{
-    width:6em;
-    height:4em;
-}
 
 
 
