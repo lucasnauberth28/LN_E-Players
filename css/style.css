@@ -379,7 +379,7 @@ header{
 }
 
 .more-plays {
-    padding-left: 1.5em;
+    padding: 0.5em;
     align-items:center;
     display:flex;
     border-radius: 4px;
@@ -668,7 +668,9 @@ header{
 }
 
 .links-uteis-footer a:hover{
-    text-decoration: underline;
+    text-decoration: none;
+    color: var(--red);
+    transition:0.3s ease;
 }
 
 .mapa-content{
@@ -686,6 +688,7 @@ header{
 
 .mapa-site-footer ul{
     display: flex;
+    list-style-type:none;
 }
 
 .mapa-site-footer a{
@@ -693,6 +696,12 @@ header{
     margin: 14px;
     transition: 0.2s;
     text-decoration: none;
+    list-style-type: none;
+}
+
+.mapa-site-footer a:hover{
+    color: var(--red);
+    transition: 0.3s ease;
 }
 
 .social-medias-footer{
@@ -772,17 +781,20 @@ header{
 
 .botoes-footer ul{
     display: flex;
+    list-style-type: none;
 }
 
 .botoes-footer a{
     color: white;
     padding: 10px;
     margin: 5px;
-    text-decoration: none;
+    text-decoration:none;
 }
 
-.buttons-footer a:hover{
-    text-decoration: underline;
+.botoes-footer a:hover{
+    text-decoration: none;
+    color: var(--red);
+    transition: 0.3s ease;
 }
 
 
